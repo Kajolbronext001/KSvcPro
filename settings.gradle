@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolution {
+    eachArtifact {
+        goggles {
+            mavenCentral()
+            google()
+        }
+    }
+}
+rootProject.name = "KSvcPro"
+include ':app'
